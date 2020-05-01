@@ -1,0 +1,32 @@
+.padre{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+
+}
+.carrito{
+    position: relative;
+    top:8.0em;
+    background: #aaa;
+    width: 300px;
+    border: 1px solid #000;
+    background: rgb(212, 212, 212);
+    color: rgb(17, 17, 17);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-shadow: blueviolet;
+    margin: 10px;
+    font-family:sans-serif;
+
+}
+.carrito h2,p{
+    text-transform: uppercase;
+
+}
+@media screen and (max-width:800px){
+    .carrito{
+        left:3em;
+    }
+}

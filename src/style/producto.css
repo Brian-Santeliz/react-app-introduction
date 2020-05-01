@@ -1,0 +1,69 @@
+.lista {
+  border: 1px solid #000;
+  width: 45%;
+  background: rgb(212, 212, 212);
+  color: rgb(17, 17, 17);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 10px;
+  font-family:sans-serif;
+  font-size:9px
+}
+.lista p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.boton {
+  text-align: center;
+  position: relative;
+  width: 45%;
+  right: 30px;
+  font-style: normal;
+  font-size: 19px;
+  color: #fff;
+  border-radius: 50px;
+  outline: none;
+  transition: 0.5s ease all;
+  text-transform: uppercase;
+  border:0;
+  background: none;
+  border:2px solid #000;
+  color: #fff;
+  border-radius: 24px;
+  transition: 0.24s ease all;
+}
+
+.boton:hover {
+  border:5px solid #686fff;
+  background: none;
+  color: #fff;
+  font-size: 30px;
+}
+@media  (max-width:800px){
+    .lista{
+        width: 30%;
+        height: 50px;
+      font-size: 10px;
+
+
+    }
+    .boton{
+        width:15%;
+      font-size: 10px;
+        left: 10px;
+
+    }
+    .boton:hover{
+        font-size: 15px;
+        width:20%;
+        text-align: center;
+
+
+    }
+}
+

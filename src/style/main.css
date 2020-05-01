@@ -1,0 +1,22 @@
+.titulo{
+    text-align: center;
+    margin: 10px;
+  text-transform: uppercase;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+body{
+    background: #9508e8;
+    color:#fff;
+
+   
+}
+
+.contenedor{
+    margin: 20px;
+    padding: 20px;
+   /* height: 24em; */
+  
+}
+

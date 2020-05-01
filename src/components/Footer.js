@@ -1,11 +1,14 @@
 import React from "react";
+import '../style/footer.css'
 
 const Footer = ({ año }) => {
 
     return (
-    <footer>
+    <span className="contenedor2">
+<footer className="footer">
       <p>todos los derechos reservados &copy; {año}</p>
     </footer>
+    </span>
   );
 };
 
